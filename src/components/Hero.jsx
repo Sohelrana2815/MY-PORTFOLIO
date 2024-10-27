@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import img from "../assets/pic.jpg";
 const Hero = () => {
   return (
@@ -16,8 +17,8 @@ const Hero = () => {
         , Junior MERN Stack Developer
       </h1>
       <p className="mt-4 text-lg text-gray-300">
-        I've built projects with React, Node.js, Express, and MongoDB. I'm
-        always eager to learn and improve my skills. Let’s create something
+        I have built projects using React, Node.js, Express, and MongoDB, and I
+        am always eager to learn and improve my skills. Let’s create something
         great together!
       </p>
       <div className="mt-8 space-x-4">
