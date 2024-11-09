@@ -22,12 +22,18 @@ const Hero = () => {
         great together!
       </p>
       <div className="mt-8 space-x-4">
-        <button
-          className="bg-gradient-to-r from-blue-500 to-green-500 text-white
-            transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"
+        <a
+          href="https://drive.google.com/file/d/1nk3XS6LwySuFatqV2pzcwHtA1W9EmebM/view?usp=drive_link"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          Download Resume
-        </button>
+          <button
+            className="bg-gradient-to-r from-blue-500 to-green-500 text-white
+      transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"
+          >
+            Download Resume
+          </button>
+        </a>
       </div>
     </div>
   );
